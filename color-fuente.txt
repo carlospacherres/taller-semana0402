@@ -1,0 +1,8 @@
+#Colores
+color-price: #26293a;
+color-features: #9c9191;
+color-boton: #fff;
+card-morado: #5175ff
+
+Fuente:
+Roboto

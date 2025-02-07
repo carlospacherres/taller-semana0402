@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+   
+body {
+    background-color: #242424;
+    color: white;
+    font-family: "Roboto", serif;
+    font-size: 16px;
+}
+   
+.listado-paquetes {
+    margin: 120px;
+    padding: 100px 50px 100px 50px;
+    max-width: 80%;
+    background-color: #26293a;
+    height: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+   
+.paquete {
+    color: #26293a;
+    background-color: #fff;
+    width: 230px;
+    height: 340px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+span{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.precio{
+    color: #26293a;
+    font-weight: 700;
+    font-size: 34px;
+}
+
+.caracteristicas{
+    color: #9c9191;
+    font-size: 11px;
+}
+
+.hasta{
+    padding: 20px 0 20px 0;
+}
+
+p{
+    padding: 8px 0 8px 0;
+}
+
+.boton{
+    background-color: #26293a;
+    color: #fff;
+    font-size: 11px;
+    width: 130px;
+    height: 40px;
+    margin: 30px 30px 20px 30px;
+    padding: 13px;
+    border-radius: 20px;
+}
+
+boton-intermedio{
+    background-color: #fff;
+    color: #26293a;
+    font-size: 11px;
+    width: 130px;
+    height: 40px;
+    margin: 30px 30px 20px 30px;
+    padding: 13px;
+    border-radius: 20px;
+}
+
+.intermedio{
+    color: #fff;
+    background-color: #5175ff;
+}
+
+  /* Media queries */
+   
+  /* Desktop first */
+  /*
+  - 1920px = break point
+  - siempre ponerlos al final, por el tema de la cascada
+  - para desktop first siempre usar los break point de mas a menos.
+  */
+   
+  @media (max-width: 1920px) {
+
+  }
+   
+  @media (max-width: 1366px) {
+
+  }
+   
+  @media (max-width: 991px) {
+    .listado-paquetes {
+      grid-template-columns: 1fr;
+      margin-bottom: 30px;
+    }
+  }
